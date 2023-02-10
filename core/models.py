@@ -17,3 +17,8 @@ class Evento(models.Model):
     #para aparecer o titulo como nome do evento
     def __str__(self):
         return self.titulo
+
+    #formato da data/hora
+    def get_data_evento(self):
+        return self.data_evento.strftime('%d/%m/%Y %H:%M')
+
