@@ -5,7 +5,7 @@
 ---
 
 <p align="center">
-Projeto desenvolvido com Django e Pyhton. 
+Projeto de Desenvolvido Web com Django e Pyhton. 
 </p>
 
 <br>

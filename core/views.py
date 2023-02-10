@@ -33,3 +33,20 @@ def lista_eventos(request):
     evento = Evento.objects.filter(usuario=usuario) # define filtro para o usuario logado
     dados = {'eventos':evento}
     return render(request, 'agenda.html', dados)
+
+@login_required(login_url='/login/')   #solicitar o login para criar novo evento
+def evento(request):
+    return render(request, 'evento.html')      #encaminha para pagina de novo evento
+
+@login_required(login_url='/login/')
+def submit_evento(request):
+    if request.POST:
+        titulo = request.POST.get('titulo')     #usando o mesmo nome do html
+        data_evento = request.POST.get('data_evento')
+        descricao = request.POST.get('descricao')
+        usuario = request.user
+        Evento.objects.create(titulo=titulo,              #ver models / esta criando novo evento
+                              data_evento=data_evento,
+                              descricao=descricao,
+                              usuario=usuario)
+    return redirect('/')
