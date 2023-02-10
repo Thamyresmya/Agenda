@@ -11,16 +11,25 @@ Projeto desenvolvido com Django e Pyhton.
 <br>
 
 <p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;    
-  <a href="Gif">Gif</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; 
+  <a href="#-gif">Gif</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
 </p>
 
 <br>
 
 <p align="center">  
 Introdução ao mundo Django, criação de uma agenda com python e django. 
-
 </p>
+  
+- Introdução aos conceitos e ambiente do Django 
+- Estrutura basica do Django
+- Criação de tabelas com models
+- Criação de pagina de listagem
+- Autenticação e inserção de dados
+- Alteração e exclusão de dados
+- Filtros, tipos de response e configurações
+
 
 <br>
 
@@ -33,12 +42,18 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 <br>
 
+## 💻 Projeto
+
+Para a uso desse projeto utilizar o venv.
+
+<br>
+
 ## 📸 Gif
-<p>
-  <img width="100%" height="300" src="vid/Agenda_Django.gif"></img>
-</p>
+Criação de tabelas com models
+<img width="100%" height="300" src="vid/Agenda_Django.gif"></img>
 
-
+Criação de pagina de listagem e Autenticação
+<img width="100%" height="300" src="vid/paginas.gif"></img>
 
 <br>
 
