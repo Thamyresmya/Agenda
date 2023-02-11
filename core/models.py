@@ -20,5 +20,9 @@ class Evento(models.Model):
 
     #formato da data/hora
     def get_data_evento(self):
-        return self.data_evento.strftime('%d/%m/%Y %H:%M')
+        return self.data_evento.strftime('%d/%m/%Y %H:%M Hrs')
 
+
+    # para trazer no campo a data/hora quando for editar o evento
+    def get_data_input_evento(self):
+        return self.data_evento.strftime('%Y-%m-%dT%H:%M')
