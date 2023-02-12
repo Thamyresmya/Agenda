@@ -49,11 +49,16 @@ Para a uso desse projeto utilizar o venv.
 <br>
 
 ## 📸 Gif
+
 Criação de tabelas com models
-<img width="100%" height="300" src="vid/Agenda_Django.gif"></img>
+
+<img width="70%" height="300" src="vid/Agenda_Django.gif"></img>
 
 Criação de pagina de listagem e Autenticação
-<img width="100%" height="300" src="vid/paginas.gif"></img>
+<img width="70%" height="300" src="vid/paginas.gif"></img>
+
+Pagina de alteração e exclusão de evento
+<img width="70%" height="300" src="vid/Agenda_alter_excl.gif"></img>
 
 <br>
 
