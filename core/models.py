@@ -1,5 +1,6 @@
 from django.db import models
 from django.contrib.auth.models import User
+from datetime import datetime, timedelta
 
 # criando as tabelas da agenda
 class Evento(models.Model):
@@ -22,7 +23,13 @@ class Evento(models.Model):
     def get_data_evento(self):
         return self.data_evento.strftime('%d/%m/%Y %H:%M Hrs')
 
-
     # para trazer no campo a data/hora quando for editar o evento
     def get_data_input_evento(self):
         return self.data_evento.strftime('%Y-%m-%dT%H:%M')
+
+    # aparecer os eventos atrasados
+    def get_evento_atrasado(self):
+        if self.data_evento < datetime.now():
+            return True
+        else:
+            return False
