@@ -1,4 +1,4 @@
-<h1 align="center"> Agenda com Danjo </h1>
+<h1 align="center"> Agenda com Django </h1>
 
 <br>
 
